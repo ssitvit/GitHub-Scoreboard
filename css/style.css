@@ -40,6 +40,7 @@
       clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
   }
 }
+
 nav,header,footer{
     display:block;
 }
@@ -273,3 +274,4 @@ ul.topnav li a{
     }
        
 }
+
