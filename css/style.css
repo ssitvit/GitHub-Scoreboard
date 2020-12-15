@@ -1,0 +1,282 @@
+.container {
+    margin: 0 20%;
+    text-align: center;
+}
+
+.heading {
+    font-family: var(--font1);
+    font-size: 4.2rem;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-family: var(--font2);
+}
+
+.top-section {
+    animation-name: titleAnimation;
+    animation-timing-function:ease;
+    animation-duration: 2s;
+}
+
+
+@media (max-width: 600px){
+    .container {
+        margin: 0 2%;
+    }
+}
+
+@keyframes titleAnimation {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+}
+
+
+
+
+
+<!-------------- -->
+
+nav,header,footer{
+    display:block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+    
+}
+
+label{
+    font-size: 35px;
+    font-weight:600;
+}
+
+p{
+    font-size: 20px;
+}
+
+article p{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+div.cat-icon img{
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,.15);
+}
+#gradient{
+    background: blue;
+    background: linear-gradient(blue, dodgerblue);
+}
+
+.row{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+*{
+    box-sizing: border-box;
+}
+
+div.box{
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15);
+}
+div.icon{
+    width: 100%;
+    align-items: center;
+}
+
+button{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color:cornflowerblue;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.Learnmore{
+    display: block;
+    margin: auto;
+}
+
+.leftside-col{
+    margin-left: 25%;
+}
+
+.rightside-col{
+    margin-left: 10%;
+}
+
+
+h1.large{
+    color:#fff;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px;
+}
+
+h1.head{
+    text-align: center;
+    font-size: 65px;
+}
+
+form h2{
+    color:#fff;
+}
+
+input[type="text","password"]{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+nav{
+    width: 100%;
+    margin: 0;
+}
+nav ul{
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right{
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    color: #666;
+}
+.box{
+    color: white;
+    
+}
+#mainpart{
+    background-color:#5A5A5E;
+    border: solid 5px darkkhaki;
+    
+}
+
+
+@media screen and (max-width:680px){
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }
+    ul.topnav li.dropdown{
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdown{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.topnav.responsive{
+        position: relative;
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+    
+    h1.head{
+      font-size: 50px;  
+    }
+    
+    article p{
+        font-size: 15px;
+    }
+    
+    .col-6,.col-4,.col-7,.col-5{
+        width:100%;
+        border: 0;
+    }
+    
+    div.inmobile{
+        width: 50%;
+        display: block;
+    }
+    
+    div.box{
+        padding: 5px;
+        display: block;
+    }
+    
+    div.cat-icon img{
+        width: 100%;
+    }
+    
+    
+    div.leftside-col,div.rightside-col{
+        margin: 15px;
+    }
+    
+    
+}
+
+
+
+
+
