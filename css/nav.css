@@ -24,16 +24,17 @@ html, body {
     height: 50px;
     text-align: center;
     border-bottom: 2px solid var(--neon);
-    border-radius: 0 0 40% 40%;
+    border-radius: 0 0 36% 36%;
     background-color: var(--light);
-    box-shadow: 0 0 10px 2px #0ff;;
+    box-shadow: 0 0 10px 2px #0ff;
+    padding: 5px 0;
 }
 
 .brand {
     color: var(--text);
-    font-size: 2.8rem;
-    font-weight: 600;
-    font-family: var(--font1);
     text-decoration: none;
+    font-size: 2.8rem;
+    font-weight: 800;
+    font-family: var(--font1);
 }
 
