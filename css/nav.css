@@ -1,9 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 :root {
-    --primary: #333533;
-    --light : #5A5A5E;
+    --primary: #333333;
+    --light : #4A4A4E;
     --text: #FFFFFF;
-    --font1: 'Amatic SC', cursive;
-    --font2: 'Josefin Slab', serif;
+    --neon: #0ff;
+    --font1: Lato, "Trebuchet MS";
+    --font2: Raleway, "Trebuchet MS";
 }
 
 html, body {
@@ -11,7 +14,7 @@ html, body {
     padding: 0;
     font-family: var(--font2);
     font-size: 80%;
-    background-color: var(--light);
+    background-color: var(--primary);
     color: var(--text);
 }
 
@@ -19,8 +22,11 @@ html, body {
     position: sticky;
     top: 0;
     height: 50px;
-    padding: 0 20%;
-    background-color: var(--primary);
+    text-align: center;
+    border-bottom: 2px solid var(--neon);
+    border-radius: 0 0 40% 40%;
+    background-color: var(--light);
+    box-shadow: 0 0 10px 2px #0ff;;
 }
 
 .brand {
@@ -31,8 +37,3 @@ html, body {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
-    .navbar {
-        padding: 0 2%;
-    }
-}

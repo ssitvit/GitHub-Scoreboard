@@ -1,16 +1,17 @@
 .container {
-    margin: 0 20%;
+    margin: 0 10%;
     text-align: center;
 }
 
 .heading {
     font-family: var(--font1);
-    font-size: 4.2rem;
+    font-size: 3.2rem;
 }
 
 .sub-heading {
     font-size: 1.5rem;
     font-family: var(--font2);
+    font-weight: 500;
 }
 
 .top-section {
@@ -18,7 +19,6 @@
     animation-timing-function:ease;
     animation-duration: 2s;
 }
-
 
 @media (max-width: 600px){
     .container {
@@ -30,14 +30,14 @@
     0% {
       transform: translateY(-50px);
       opacity: 0;
-      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
-      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
   }
   100% {
       transform: translateY(0);
       opacity: 1;
-      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
   }
 }
 
