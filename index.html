@@ -13,6 +13,13 @@
     <nav class="navbar">
         <a href="#" class="brand">GITMASH</a>
     </nav>
+    <div id='palette' class="theme">
+        <div class="drop-color"><i class="fas fa-palette"></i></div>
+        <div onclick="changeTheme('#0FF')" class="color blue"></div>
+        <div onclick="changeTheme('#FE0')" class="color yellow"></div>
+        <div onclick="changeTheme('#0F0')" class="color green"></div>
+        <div onclick="changeTheme('#F0F')" class="color pink"></div>
+      </div>
     <div class="container">
         <div class="top-section">
             <h1 class="heading">Github Scorecard Generator</h1>
@@ -23,7 +30,7 @@
             <div class="card">
                 <h2 class="card-title">Get Your Score</h2>
                 <img src="./img/git-white.png" alt="Git" class="card-img">
-                <button class="btn-card">Get Score</button>
+                <button onclick="location.href='check.html'" class="btn-card">Check</button>
             </div>
             <div class="card">
                 <h2 class="card-title">Compare Your Score</h2>
@@ -34,5 +41,6 @@
 
     </div>
     <script src="https://kit.fontawesome.com/82262f4dc4.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  transition: all 0.5s ease;
 }
 
 input[type=text]{
@@ -44,23 +44,22 @@ input[type=submit]:hover {
   box-shadow: 0 0 20px var(--neon), 0 0 12px var(--neon);
 }
 
-.compare-form {
+.form-area {
   margin-top: 50px;
   border-radius: 5px;
   background-color: var(--light);
   padding: 30px 20px;
-  transition: all 0.6s ease;
 }
 
 
 .col-75 {
-  
   width: 55%;
   margin-top: 6px;
 
 }
 #center{
     color: var(--text);
+    transition: no;
 }
 
 .row:after {

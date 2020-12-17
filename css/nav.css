@@ -26,15 +26,61 @@ html, body {
     border-bottom: 2px solid var(--neon);
     border-radius: 0 0 36% 36%;
     background-color: var(--light);
-    box-shadow: 0 0 10px 2px #0ff;
-    padding: 5px 0;
+    box-shadow: 0 0 10px 2px var(--neon);
+    padding: 4px 0;
+    z-index: 5;
 }
 
 .brand {
     color: var(--text);
     text-decoration: none;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     font-weight: 800;
     font-family: var(--font1);
 }
 
+.drop-color {
+    cursor: pointer;
+    font-size: 32px;
+    margin: 8px;
+}
+
+.theme {
+    max-height: 48px;
+    position: fixed;
+    left: 0;
+    top: 15%;
+    background-color: var(--light);
+    border-radius: 0 8px 8px 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.theme:hover {
+    max-height: 100%;
+    transition: 1s ease;
+}
+
+.color {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #0ff;
+}
+
+.yellow {
+    background-color: #FE0;
+}
+
+.green {
+    background-color: #0f0;
+}
+
+.pink {
+    background-color: #f0f;
+}

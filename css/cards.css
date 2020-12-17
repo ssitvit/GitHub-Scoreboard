@@ -39,7 +39,7 @@
     border-radius: 100px;
     padding: 0.6rem 1.6rem;
     background: transparent;
-    transition: all 0.6s ease;
+    transition: all 0.5s ease;
     cursor: pointer;
 }
 
