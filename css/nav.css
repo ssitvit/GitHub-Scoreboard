@@ -49,7 +49,7 @@ html, body {
     max-height: 48px;
     position: fixed;
     left: 0;
-    top: 15%;
+    top: 16%;
     background-color: var(--light);
     border-radius: 0 8px 8px 0;
     z-index: 2;
