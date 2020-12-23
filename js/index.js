@@ -15,10 +15,10 @@ function comparePage(){
     $('.container').load('compare.html')
 }
 
-function getScore(){
-    alert('Your Score is very good.')
+function getScore(form){
+    alert('You entered: '+form.uid.value)
 }
 
-function compareScore(){
-    alert('Your Score is compared')
+function compareScore(form){
+    alert('You entered :'+form.uid1.value+' and '+form.uid2.value)
 }
