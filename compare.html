@@ -5,7 +5,7 @@
 
 <div class="form-area">
     <center>
-    <form name="compare" onsubmit="compareScore(this)">
+    <form name="compare" onsubmit="return compareScore(this)">
         <div class="row">
         
         <div class="col-75">
@@ -25,29 +25,6 @@
     </form></center>
 </div>
 
-<div class="cards">
-    <div class="profile-card">
-        <h2 class="card-title">Gunjan Raj Tiwari</h2>
-        <div class="img-div"><img class="profile-pic" src="./img/github-white.png" alt="Photo"></div>
-        <div class="github-info">
-            <p>Total Followers: <span>10</span></p>
-            <p>Total Stars: <span>12</span></p>
-            <p>Total Forks: <span>19</span></p>
-            <p>Public Repos: <span>15</span></p>
-        </div>
-        <h2 class="final-score">Your score is: 100</h2>
-        <button onclick="location.href='check.html'" class="btn-card">Profile</button>
-    </div>
-    <div class="profile-card">
-        <h2 class="card-title">Gunjan Raj Tiwari</h2>
-        <div class="img-div"><img class="profile-pic" src="./img/github-white.png" alt="Photo"></div>
-        <div class="github-info">
-        <p>Total Followers: <span>10</span></p>
-        <p>Total Stars: <span>12</span></p>
-        <p>Total Forks: <span>19</span></p>
-        <p>Public Repos: <span>15</span></p>
-        </div>
-        <h2 class="final-score">Your score is: 100</h2>
-        <button onclick="location.href='check.html'" class="btn-card">Profile</button>
-    </div>
+<div id="myCard" class="cards">
+   
 </div>

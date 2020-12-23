@@ -71,8 +71,9 @@
 
 .profile-pic {
     display: inline-block;
-    height: 98px;
-    width: 98px;
+    height: 99px;
+    width: 99px;
+    border-radius: 50%;
 }
 
 .github-info {

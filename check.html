@@ -5,7 +5,7 @@
 
 <div class="form-area"> 
     <center>
-    <form name="myScore" onsubmit="getScore(this)">
+    <form name="myScore" onsubmit="return getScore(this)">
         <div class="row">
         <div class="col-75">
             <input type="text" id="fname" name="uid" placeholder="Username" required>
@@ -14,24 +14,13 @@
         </div><br><br>
         
         <div class="row" id="submit">
-        <input type="submit"  id="b1" value="Check">
+        <input type="submit" value="Check">
         </div>
     </form>
     </center> 
     </div>
 </div>
 
-<div class="cards">
-    <div class="profile-card">
-        <h2 class="card-title">Gunjan Raj Tiwari</h2>
-        <div class="img-div"><img class="profile-pic" src="./img/github-white.png" alt="Photo"></div>
-        <div class="github-info">
-        <p>Total Followers: <span>10</span></p>
-        <p>Total Stars: <span>12</span></p>
-        <p>Total Forks: <span>19</span></p>
-        <p>Public Repos: <span>15</span></p>
-        </div>
-        <h2 class="final-score">Your score is: 100</h2>
-        <button onclick="location.href='check.html'" class="btn-card">Profile</button>
-    </div>
+<div id="myCard" class="cards">
+    
 </div>
