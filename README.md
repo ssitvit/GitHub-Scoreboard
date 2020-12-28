@@ -17,6 +17,15 @@
 ```
 
 
+### Screenshots
+
+<p align="center" style="{ display: flex; flex-wrap: wrap; justify-content: space-evenly}">
+    <img src="./img/Capture1.png" />
+    <img src="./img/Capture2.png" />
+    <img src="./img/Capture3.png" />
+    <img src="./img/Capture4.png" />
+</p>
+
 ### Contributors
 
 - [ Gunjan Raj Tiwari ](https://github.com/GunjanRajTiwari)
