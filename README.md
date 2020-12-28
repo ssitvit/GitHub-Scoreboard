@@ -20,10 +20,11 @@
 ### Screenshots
 
 <p align="center" style="{ display: flex; flex-wrap: wrap; justify-content: space-evenly}">
-    <img src="./img/Capture1.png" />
-    <img src="./img/Capture2.png" />
-    <img src="./img/Capture3.png" />
-    <img src="./img/Capture4.png" />
+    <img src="https://raw.githubusercontent.com/ieeessitvit/GitHub-Scoreboard/main/img/Capture1.PNG" />
+    <img src="https://raw.githubusercontent.com/ieeessitvit/GitHub-Scoreboard/main/img/Capture2.PNG" />
+    <img src="https://raw.githubusercontent.com/ieeessitvit/GitHub-Scoreboard/main/img/Capture3.PNG" />
+    <img src="https://raw.githubusercontent.com/ieeessitvit/GitHub-Scoreboard/main/img/Capture4.PNG" />
+    
 </p>
 
 ### Contributors
