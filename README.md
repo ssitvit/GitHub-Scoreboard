@@ -4,22 +4,26 @@
     <h4 align="center">alias GitMash</h4>
 </p>
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ieeessitvit/template?logo=github&style=social)](https://github.com/ieeessitvit/) [![GitHub last commit](https://img.shields.io/github/last-commit/ieeessitvit/template?style=social&logo=git)](https://github.com/ieeessitvit/) [![GitHub stars](https://img.shields.io/github/stars/ieeessitvit/template?style=social)](https://github.com/ieeessitvit/.../stargazers) [![GitHub forks](https://img.shields.io/github/forks/ieeessitvit/template?style=social&logo=git)](https://github.com/ieeessitvit/.../network)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ieeessitvit/GitHub-Scoreboard?logo=github&style=social)](https://github.com/ieeessitvit/GitHub-Scoreboard) [![GitHub last commit](https://img.shields.io/github/last-commit/ieeessitvit/GitHub-Scoreboard?style=social&logo=git)](https://github.com/ieeessitvit/GitHub-Scoreboard) [![GitHub stars](https://img.shields.io/github/stars/ieeessitvit/GitHub-Scoreboard?style=social)](https://github.com/ieeessitvit/GitHub-Scoreboard/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ieeessitvit/GitHub-Scoreboard?style=social)](https://github.com/ieeessitvit/GitHub-Scoreboard/network)
 
 
-### Requirements:-
+### What you can do:-
 
 ```
-
-...
+< Get your github score />
+< Compare github scores with friends />
+< Change colors and have fun />
 
 ```
 
 
 ### Contributors
 
-- [ Contributor 1 ](https://github.com/)
-- [ Contributor 2 ](https://github.com/)
+- [ Gunjan Raj Tiwari ](https://github.com/GunjanRajTiwari)
+- [ Shaurya Kohli ](https://github.com/shauryakohli)
+- [ Dhurvil Dave ](https://github.com/Dhruvil-Dave)
+- [ Dhairya Ostwal ](https://github.com/dhairyaostwal)
+- [ Sandesh Dhungana ](https://github.com/sandesh32)
 
 
 ---------
